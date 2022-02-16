@@ -1,0 +1,30 @@
+$darak: #292b2c;
+
+.to-download-section {
+  background: $darak;
+  color: white;
+  position: relative;
+  top: 16px;
+}
+
+.files {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+
+  img,
+  div {
+    margin: 0.5rem;
+    width: 80px;
+    border-radius: 12px;
+  }
+
+  div {
+    width: 90px;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}

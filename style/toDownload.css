@@ -1,0 +1,34 @@
+.to-download-section {
+  background: #292b2c;
+  color: white;
+  position: relative;
+  top: 16px;
+}
+
+.files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.files img,
+.files div {
+  margin: 0.5rem;
+  width: 80px;
+  border-radius: 12px;
+}
+
+.files div {
+  width: 90px;
+}
+
+.files a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+/*# sourceMappingURL=toDownload.css.map */
