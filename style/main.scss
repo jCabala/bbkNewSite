@@ -1,0 +1,31 @@
+$dark: #292b2c;
+$cream: #f3f4f5;
+$red: rgb(170, 13, 13);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wave-wrapper {
+  position: absolute;
+  bottom: 0;
+}
+
+/*NAVBAR*/
+nav {
+  box-shadow: 0 4px 2px -2px #292b2c;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background-color: $cream !important;
+}
+
+.logo {
+  color: $red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

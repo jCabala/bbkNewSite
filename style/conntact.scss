@@ -1,0 +1,55 @@
+/*CONNTACT SECTION*/
+.conntact-section {
+  background: var(--red);
+  color: white;
+  min-height: 80vh;
+
+  padding-bottom: 10rem;
+}
+
+.conntact-info-holder {
+  background: var(--red);
+  margin: 0.5rem;
+
+  color: white;
+  font-size: 12px;
+
+  padding: 0.5rem;
+  border-radius: 20px;
+
+  display: flex;
+}
+
+.conntact-info-holder:hover {
+  background: var(--cream);
+  color: var(--red);
+  border: 1px solid var(--red);
+  padding: calc(0.5rem - 1px);
+}
+
+.conntact-info-holder:hover > .icon-holder {
+  background: var(--red);
+}
+
+.icon-holder {
+  background: var(--cream);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  margin-right: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  margin: 0.5rem;
+}
+
+.conntact__cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
