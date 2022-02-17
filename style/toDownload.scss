@@ -1,4 +1,4 @@
-$darak: #292b2c;
+$darak: #343a40;
 
 .to-download-section {
   background: $darak;
@@ -10,6 +10,7 @@ $darak: #292b2c;
 .files {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding-bottom: 5rem;
 
   img,

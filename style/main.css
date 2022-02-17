@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .wave-wrapper {
@@ -13,7 +13,7 @@
 /*NAVBAR*/
 nav {
   -webkit-box-shadow: 0 4px 2px -2px #292b2c;
-  box-shadow: 0 4px 2px -2px #292b2c;
+          box-shadow: 0 4px 2px -2px #292b2c;
 }
 
 body {
@@ -26,9 +26,5 @@ body {
   color: #aa0d0d;
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-a {
-  text-decoration: none !important;
 }
 /*# sourceMappingURL=main.css.map */
