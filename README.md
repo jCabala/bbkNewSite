@@ -6,6 +6,6 @@ A website that I created for a civil engineering company from Szczawnica.
 
 **Bootstrap**, **HTML**, **SASS**
 
-#SITE
+# SITE
 
 [Live Site](https://bbkpl.com/)
